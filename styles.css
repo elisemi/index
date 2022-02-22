@@ -1,7 +1,7 @@
 html {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #bad1f3, #fad6e3, white);
+    background-image: linear-gradient(to bottom right, #9fbdeb, #f7c2d5, white);
     position: fixed;
 }
 
@@ -20,7 +20,7 @@ h1 a {
     color: transparent;
     -webkit-text-stroke: 2px #fff6fa;
     font-family: 'Syncopate', sans-serif;
-    font-size: 190px;
+    font-size: 180px;
     letter-spacing: 0px;
     text-decoration: none;
     user-select: none;
@@ -58,37 +58,34 @@ h1 a:hover {
 
 #circle {
     position: relative;
-    margin-top: -250px;
+    margin-top: -260px;
     margin-left: 800px;
     width: 720px;
     height: 720px;
     -webkit-border-radius: 720px;
     -moz-border-radius: 720px;
     border-radius: 360px;
-    background-image: linear-gradient(to bottom right, white, #f8c5d8);
+    background-image: linear-gradient(to bottom right, white, #f8c5d8, #f7c2d5);
     opacity: 0.7;
     overflow: hidden;
 }
-
 
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
 }
-  
+
 ::-webkit-scrollbar-track {
     display: none;
 }
-  
 
 ::-webkit-scrollbar-thumb {
     background: #dadada;
     border-radius: 4px;
 }
-  
 
 ::-webkit-scrollbar-thumb:hover {
-    background:  #868686;
+    background: #868686;
 }
 
 
