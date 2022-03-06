@@ -1,0 +1,266 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #89abee, #93afe7, #cbdbfa, white);
+    position: fixed;
+}
+
+body {
+    margin: 50px 70px 0px 70px;
+    padding: 0;
+    font-family: 'Courier Prime', monospace, sans-serif;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+}
+
+h1 a {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    margin-left: -15px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 305px;
+    letter-spacing: 7px;
+    text-decoration: none;
+    user-select: none;
+    /* stops text from being highlighted/selected */
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+h1 a:hover {
+    -webkit-text-stroke: 2px #d3dff8;
+}
+
+
+/* links */
+
+.link1 a p {
+    position: fixed;
+    display: none;
+}
+
+.link1 a:hover p {
+    margin-top: -30px;
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link1 a:hover {
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link2 a p {
+    position: fixed;
+    display: none;
+}
+
+.link2 a:hover p {
+    margin-top: -30px;
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link2 a:hover {
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link3 a p {
+    position: fixed;
+    display: none;
+}
+
+.link3 a:hover p {
+    margin-top: -30px;
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link3 a:hover {
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link4 a p {
+    position: fixed;
+    display: none;
+}
+
+.link4 a:hover p {
+    margin-top: -30px;
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link4 a:hover {
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link5 a p {
+    position: fixed;
+    display: none;
+}
+
+.link5 a:hover p {
+    margin-top: -30px;
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+.link5 a:hover {
+    position: fixed;
+    display: block;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.404);
+}
+
+a {
+    position: fixed;
+    display: inline-flex;
+    margin-top: 15px;
+    margin-right: 47px;
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, white, #cbdbfa);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.164);
+    color: white;
+    user-select: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: 4;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.links {
+    position: fixed;
+    display: inline-flex;
+}
+
+.link1 a {
+    position: relative;
+    opacity: 0.95;
+}
+
+.link1 a:hover {
+    position: relative;
+    opacity: 1;
+}
+
+.link2 a {
+    position: relative;
+    opacity: 0.8;
+}
+
+.link2 a:hover {
+    position: relative;
+    opacity: 1;
+}
+
+.link3 a {
+    position: relative;
+    opacity: 0.6;
+}
+
+.link3 a:hover {
+    position: relative;
+    opacity: 1;
+}
+
+.link4 a {
+    position: relative;
+    opacity: 0.4;
+}
+
+.link4 a:hover {
+    position: relative;
+    opacity: 1;
+}
+
+.link5 a {
+    position: relative;
+    opacity: 0.2;
+}
+
+.link5 a:hover {
+    position: relative;
+    opacity: 1;
+}
+
+#circle2 {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 700px;
+    width: 800px;
+    height: 800px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, white, #f7c2d5);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.438);
+    opacity: 0.8;
+    overflow: hidden;
+    animation: move 10s ease-in-out infinite;
+    transform-origin: 50% 50%;
+    z-index: -1;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(1) translate(10px, -1px);
+    }
+    50% {
+        transform: scale(1) translate(0vw, -40vh) rotate(40deg);
+    }
+    100% {
+        transform: scale(1) translate(10px, -1px);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dadada;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #868686;
+}
+
+
+/* copyright */
+
+footer {
+    position: fixed;
+    color: white;
+    bottom: 1%;
+    right: 2%;
+    font-size: 14px;
+    font-weight: 600;
+}
