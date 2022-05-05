@@ -208,7 +208,7 @@ a:hover {
 }
 
 #circle2 {
-    position: absolute;
+    position: relative;
     margin-top: -30px;
     margin-left: 700px;
     margin-right: auto;
